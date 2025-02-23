@@ -29,7 +29,7 @@ export default function LoginPage()
         open();
      event.preventDefault();
      let data={
-     user_phonr:phoneinput.current.value,
+     user_phone:phoneinput.current.value,
      user_code:codeinput.current.value
 
      }
@@ -54,7 +54,7 @@ export default function LoginPage()
             setTimeout(()=>{
                 Swal.fire({
                     icon:'success',
-                    title:"successfuy login",
+                    title:"successfuly login",
                     timer:1500
                 }).then(()=>{
                     close();
